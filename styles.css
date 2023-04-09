@@ -110,9 +110,20 @@ a:active {
 }
 
 .content {
+  display: flex;
+  align-items: top;
   padding-top: 100px;
+}
+
+.content-title {
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .paragraph {
   color: rgb(83, 83, 83);
+}
+
+.laptop {
+  width: 450px;
 }
