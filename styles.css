@@ -9,14 +9,23 @@ body {
   font-weight: lighter;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Arial, sans-serif;
-  font-weight: 400;
+#header {
+  display: flex;
+  align-items: center;
+  padding: 25px 10%;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding-right: 10px;
 }
 
 a {
