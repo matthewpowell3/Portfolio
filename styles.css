@@ -136,14 +136,17 @@ a:active {
 .contactme-button {
   background: rgb(104, 9, 195);
   color: white;
-  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: none;
   border-radius: 30px;
   cursor: pointer;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
   transition: all 0.15s;
 }
 
-.ontactme-button:hover {
-  color: white;
+.contactme-button:hover {
   opacity: 0.9;
 }
 
