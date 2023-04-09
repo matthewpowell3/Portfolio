@@ -12,19 +12,7 @@ body {
   font-size: 14px;
 }
 
-#main {
-  background-color: white;
-  position: absolute;
-  top: 80px;
-  bottom: 400px;
-  left: 150px;
-  right: 300px;
-  width: 80%;
-  border-radius: 40px;
-}
-
 #header {
-  background-color: white;
   display: flex;
   align-items: center;
   padding: 25px 10%;
@@ -35,7 +23,7 @@ body {
 
 .title {
   font-family: 'Poppins';
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .navbar {
@@ -120,6 +108,10 @@ a:active {
 
 .contactme:active {
   opacity: 0.4;
+}
+
+.content {
+  padding-top: 100px;
 }
 
 .paragraph {
