@@ -128,9 +128,8 @@ a:active {
 }
 
 .about-paragraph {
-  margin-left: auto;
   width: 500px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .contactme-button {
@@ -162,4 +161,16 @@ a:active {
 
 .laptop {
   width: 450px;
+}
+
+.socialmedia {
+  flex: 1;
+}
+
+.about {
+  flex: 2;
+}
+
+.image {
+  flex: 2;
 }
