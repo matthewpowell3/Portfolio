@@ -71,6 +71,10 @@ li:hover::after {
   width: 100%;
 }
 
+li:active::after {
+  background-color: #6809c3;
+}
+
 .contactme-container:hover::after {
   width: 0%;
 }
@@ -96,6 +100,7 @@ a:active {
 }
 
 .home:hover {
+  opacity: 0.8;
   color: #04d4e3;
 }
 
