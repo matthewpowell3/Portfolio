@@ -27,6 +27,12 @@ body {
   user-select: none;
 }
 
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 120px;
+}
+
 .navbar {
   margin-left: auto;
   user-select: none;
