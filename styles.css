@@ -25,16 +25,21 @@ body {
 
 .navbar ul li {
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 25px;
 }
 
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 a:hover {
-  color: #333;
+  color: rgb(83, 83, 83);
+}
+
+a:active {
+  opacity: 0.4;
 }
 
 .home {
@@ -51,10 +56,15 @@ a:hover {
   color: white;
   padding: 7px 15px;
   border-radius: 30px;
-  box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .contactme:hover {
   color: white;
   opacity: 0.9;
+}
+
+.contactme:active {
+  opacity: 0.4;
 }
