@@ -99,6 +99,7 @@ a:active {
 .contactme {
   background: rgb(104, 9, 195);
   color: white;
+  font-weight: 600;
   padding: 7px 15px;
   border-radius: 30px;
   cursor: pointer;
