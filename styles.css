@@ -116,3 +116,7 @@ a:active {
 .contactme:active {
   opacity: 0.4;
 }
+
+.color {
+  color: rgb(83, 83, 83);
+}
