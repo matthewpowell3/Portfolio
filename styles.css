@@ -71,7 +71,7 @@ li:active::after {
   background-color: #6809c3;
 }
 
-.contactme-container:hover::after {
+.hireme-container:hover::after {
   width: 0%;
 }
 
@@ -106,8 +106,16 @@ a:active {
   color: #ab79da;
 }
 
-.contactme {
-  background: rgb(104, 9, 195);
+.hireme-container {
+  transition: all 0.15s;
+}
+
+.hireme-container:hover {
+  transform: translateY(-5px);
+}
+
+.hireme {
+  background: #f75552;
   color: white;
   font-weight: 600;
   padding: 7px 15px;
@@ -117,7 +125,7 @@ a:active {
   user-select: none;
 }
 
-.contactme:hover {
+.hire:hover {
   color: white;
   opacity: 0.9;
 }
@@ -182,7 +190,7 @@ a:active {
   user-select: all;
 }
 
-.contactme-button {
+.contactme {
   background: rgb(104, 9, 195);
   color: white;
   font-size: 16px;
@@ -196,12 +204,29 @@ a:active {
   user-select: none;
 }
 
-.contactme-button:hover {
+.contactme:hover {
+  color: white;
   transform: translateY(-5px);
   opacity: 0.9;
 }
 
-.contactme-button:active {
+.contactme:active {
+  color: white;
+  opacity: 0.3;
+}
+
+.contactme-link {
+  color: black;
+}
+
+.contactme-link:hover {
+  color: white;
+  transform: translateY(-5px);
+  opacity: 0.9;
+}
+
+.contactme-link:active {
+  color: white;
   opacity: 0.3;
 }
 
