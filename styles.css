@@ -165,20 +165,20 @@ a:active {
   animation: 0.8s ease-in 0s 1 alternate animation;
 }
 
-.instaIcon {
+#instaIcon {
   margin-bottom: 35px;
 }
 
-.githubIcon {
+#githubIcon {
   user-select: none;
 }
 
-.whatsappIcon {
+#whatsappIcon {
   margin-bottom: 35px;
   user-select: none;
 }
 
-.about {
+.about-website-owner {
   flex: 2;
 }
 
@@ -186,12 +186,17 @@ a:active {
   flex: 2;
 }
 
-.content-title {
+.owner-intro {
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 5px;
   user-select: auto;
   user-zoom: 50%;
+}
+
+.information {
+  font-weight: 400;
+  color: rgb(83, 83, 83);
 }
 
 .subtitle {
@@ -205,7 +210,7 @@ a:active {
   user-select: all;
 }
 
-.contactme {
+.contactMeButton {
   background: rgb(104, 9, 195);
   color: white;
   font-size: 16px;
@@ -219,35 +224,30 @@ a:active {
   user-select: none;
 }
 
-.contactme:hover {
+.contactMeButton:hover {
   color: white;
   transform: translateY(-5px);
   opacity: 0.9;
 }
 
-.contactme:active {
+.contactMeButton:active {
   color: white;
   opacity: 0.3;
 }
 
-.contactme-link {
+.contactMeAnchor {
   color: black;
 }
 
-.contactme-link:hover {
+.contactMeAnchor:hover {
   color: white;
   transform: translateY(-5px);
   opacity: 0.9;
 }
 
-.contactme-link:active {
+.contactMeAnchor:active {
   color: white;
   opacity: 0.3;
-}
-
-.paragraph {
-  font-weight: 400;
-  color: rgb(83, 83, 83);
 }
 
 .laptop {
