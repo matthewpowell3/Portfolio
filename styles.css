@@ -135,7 +135,7 @@ a:active {
   opacity: 0.4;
 }
 
-.jobIcons-conatiner {
+.jobIcons-container {
   display: flex;
   align-items: top;
   margin-top: 150px;
@@ -165,7 +165,7 @@ a:active {
   animation: 0.8s ease-in 0s 1 alternate animation;
 }
 
-#instaIcon {
+#instagramIcon{
   margin-bottom: 35px;
 }
 
@@ -173,7 +173,7 @@ a:active {
   user-select: none;
 }
 
-#whatsappIcon {
+#whatsappIcon{
   margin-bottom: 35px;
   user-select: none;
 }
