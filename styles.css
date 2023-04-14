@@ -165,7 +165,7 @@ a:active {
   animation: 0.8s ease-in 0s 1 alternate animation;
 }
 
-#instagramIcon{
+#instagramIcon {
   margin-bottom: 35px;
 }
 
@@ -173,7 +173,7 @@ a:active {
   user-select: none;
 }
 
-#whatsappIcon{
+#whatsappIcon {
   margin-bottom: 35px;
   user-select: none;
 }
@@ -182,7 +182,7 @@ a:active {
   flex: 2;
 }
 
-.image {
+.imageContainer {
   flex: 2;
 }
 
