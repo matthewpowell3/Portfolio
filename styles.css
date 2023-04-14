@@ -11,7 +11,7 @@ body {
   font-size: 14px;
 }
 
-#header {
+.heading {
   display: flex;
   align-items: center;
   padding: 25px 10%;
@@ -21,31 +21,31 @@ body {
   user-select: none;
 }
 
-.title {
+.myName {
   font-family: 'Poppins';
   font-size: 18px;
   user-select: none;
 }
 
-.logo {
+.profilePic {
   width: 40px;
   height: 40px;
   border-radius: 120px;
   margin-right: 15px;
 }
 
-.navbar {
+.navigationBar {
   margin-left: auto;
   user-select: none;
 }
 
-.navbar ul {
+.navigationBar > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.navbar ul li {
+.navigationBar > ul > li {
   display: inline-block;
   position: relative;
   padding: 10px 20px;
@@ -72,7 +72,7 @@ li:active::after {
   background-color: #6809c3;
 }
 
-.hireme-container:hover::after {
+.call-to-action:hover::after {
   width: 0%;
 }
 
@@ -92,30 +92,30 @@ a:active {
   opacity: 0.4;
 }
 
-.home {
+.home-link {
   color: #6809c3;
   transition: all 0.15s;
 }
 
-.home:hover {
+.home-link:hover {
   opacity: 0.8;
   color: #7f30c9;
 }
 
-.home:active {
+.home-link:active {
   opacity: 0.8;
   color: #ab79da;
 }
 
-.hireme-container {
+.call-to-action {
   transition: all 0.15s;
 }
 
-.hireme-container:hover {
+.call-to-action:hover {
   transform: translateY(-5px);
 }
 
-.hireme {
+.hire-btn {
   background: #f75552;
   color: white;
   font-weight: 700;
@@ -126,23 +126,23 @@ a:active {
   user-select: none;
 }
 
-.hire:hover {
+.hire-btn:hover {
   color: white;
   opacity: 0.9;
 }
 
-.contactme:active {
+.hire-btn:active {
   opacity: 0.4;
 }
 
-.content {
+.jobIcons-conatiner {
   display: flex;
   align-items: top;
   margin-top: 150px;
   margin-left: 35px;
 }
 
-.socialmedia {
+.socialmediasocialMediaIcons {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -153,16 +153,16 @@ a:active {
 
 @keyframes animation {
   from {
-    transform: rotateX(50%);
+    transform: rotateZ(0deg);
   }
 
   to {
-    transform: rotateX(100%);
+    transform: rotateZ(360deg);
   }
 }
 
-.icon {
-  animation: 2s linear 0s infinite alternate animation;
+.icon:hover {
+  animation: 0.8s ease-in 0s 1 alternate animation;
 }
 
 #insta {
