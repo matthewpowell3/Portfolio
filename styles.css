@@ -151,6 +151,20 @@ a:active {
   user-select: none;
 }
 
+@keyframes animation {
+  from {
+    transform: rotateX(50%);
+  }
+
+  to {
+    transform: rotateX(100%);
+  }
+}
+
+.icon {
+  animation: 2s linear 0s infinite alternate animation;
+}
+
 #insta {
   margin-bottom: 35px;
 }
