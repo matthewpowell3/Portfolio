@@ -142,7 +142,7 @@ a:active {
   margin-left: 35px;
 }
 
-.socialmediasocialMediaIcons {
+.socialMediaIcons {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -161,19 +161,19 @@ a:active {
   }
 }
 
-.icon:hover {
+.media:hover {
   animation: 0.8s ease-in 0s 1 alternate animation;
 }
 
-#insta {
+.instaIcon {
   margin-bottom: 35px;
 }
 
-#github {
+.githubIcon {
   user-select: none;
 }
 
-#whatsapp {
+.whatsappIcon {
   margin-bottom: 35px;
   user-select: none;
 }
