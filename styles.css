@@ -60,7 +60,7 @@ li::after {
   height: 3px;
   left: 0;
   bottom: 0;
-  transition: width 0.35s ease 0s;
+  transition: width 0.35s ease 0s, position 0.35s ease 0s;
   position: absolute;
 }
 
@@ -255,3 +255,4 @@ a:active {
   user-select: none;
   user-zoom: 50%;
 }
+
