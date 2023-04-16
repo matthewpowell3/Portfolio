@@ -56,11 +56,11 @@ body {
 li::after {
   background-color: #6809c3;
   content: '';
-  width: 0;
-  height: 3px;
+  width: 0%;
   left: 0;
   bottom: 0;
-  transition: width 0.35s ease 0s, position 0.35s ease 0s;
+  height: 3px;
+  transition: all 0.35s ease 0s;
   position: absolute;
 }
 
@@ -122,11 +122,12 @@ a:active {
   padding: 7px 15px;
   border-radius: 30px;
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all ease-in 0.15s;
   user-select: none;
 }
 
 .hire-btn:hover {
+  background-color: #ff0400;
   color: white;
   opacity: 0.9;
 }
@@ -255,4 +256,3 @@ a:active {
   user-select: none;
   user-zoom: 50%;
 }
-
